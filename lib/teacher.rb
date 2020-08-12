@@ -11,6 +11,6 @@ class Teacher < User
     KNOWLEDGE
   end
 
-  def teach 
+  def teach
     Teacher.knowledge.sample
 end
